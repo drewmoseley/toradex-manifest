@@ -38,9 +38,9 @@ repo-sync:
     - ../bin/repo sync
     - ../bin/repo init -u $ORIGIN -b $CI_COMMIT_BRANCH -m tezi/next.xml
     - ../bin/repo sync
-    - ../bin/repo init -u $ORIGIN -b $CI_COMMIT_BRANCH -m torizoncore/default.xml
+    - ../bin/repo init -u $ORIGIN -b $CI_COMMIT_BRANCH -m torizon/default.xml
     - ../bin/repo sync
-    - ../bin/repo init -u $ORIGIN -b $CI_COMMIT_BRANCH -m torizoncore/integration.xml
+    - ../bin/repo init -u $ORIGIN -b $CI_COMMIT_BRANCH -m torizon/integration.xml
     - ../bin/repo sync
-    - ../bin/repo init -u $ORIGIN -b $CI_COMMIT_BRANCH -m torizoncore/next.xml
+    - ../bin/repo init -u $ORIGIN -b $CI_COMMIT_BRANCH -m torizon/next.xml
     - ../bin/repo sync
