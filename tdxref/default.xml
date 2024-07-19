@@ -9,8 +9,8 @@
 
   <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="d8eeef0bfd84672c7919cd346f25f7c9a98ddaea" upstream="scarthgap"/>
   <project name="meta-security" path="layers/meta-security" remote="yocto" revision="11ea91192d43d7c2b0b95a93aa63ca7e73e38034" upstream="scarthgap"/>
-  <project name="meta-toradex-demos.git" path="layers/meta-toradex-demos" remote="tdx" revision="301c4454ec0511a720c6a3d70a81d1617ffbc4fa" upstream="master"/>
-  <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="6b82db04e636e2617f88a0c8a198c47d71263870" upstream="master">
+  <project name="meta-toradex-demos.git" path="layers/meta-toradex-demos" remote="tdx" revision="301c4454ec0511a720c6a3d70a81d1617ffbc4fa" upstream="scarthgap-7.x.y"/>
+  <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="91065c63a7cd7c956213566d6e5370bf0a73e7d0" upstream="scarthgap-7.x.y">
     <copyfile dest="export" src="buildconf/export"/>
   </project>
 </manifest>
