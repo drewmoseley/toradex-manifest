@@ -8,7 +8,7 @@
   <include name="bsp/integration-tdx.xml"/>
 
   <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="eb828418264a49b8d00035cb3d7b12fcea3be801" upstream="scarthgap"/>
-  <project name="meta-security" path="layers/meta-security" remote="yocto" revision="2d5aaeb70501953ce29641cdcb01857827510fe9" upstream="scarthgap"/>
+  <project name="meta-security" path="layers/meta-security" remote="yocto" revision="459d837338ca230254baa2994f870bf6eb9d0139" upstream="scarthgap"/>
   <project name="meta-toradex-demos.git" path="layers/meta-toradex-demos" remote="tdx" revision="scarthgap-7.x.y"/>
   <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="scarthgap-7.x.y">
     <copyfile dest="export" src="buildconf/export"/>
