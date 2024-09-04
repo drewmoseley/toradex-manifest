@@ -13,7 +13,7 @@
   <project name="meta-updater" path="layers/meta-updater" remote="uptane" revision="8de7c6a8db7d79cfcbd3bc4e0c745ddfda22d9ca"/>
   <project name="meta-virtualization" path="layers/meta-virtualization" remote="yocto" revision="37c06acf58f9020bccfc61954eeefe160642d5f3"/>
   <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="scarthgap-7.x.y"/>
-  <project name="meta-toradex-security" path="layers/meta-toradex-security" remote="toradex" revision="main"/>
+  <project name="meta-toradex-security" path="layers/meta-toradex-security" remote="toradex" revision="scarthgap-7.x.y"/>
   <project name="meta-toradex-torizon" path="layers/meta-toradex-torizon" remote="torizon" revision="scarthgap-7.x.y">
     <linkfile dest="setup-environment" src="scripts/setup-environment"/>
   </project>
