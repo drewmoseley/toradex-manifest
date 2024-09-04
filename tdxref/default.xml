@@ -8,9 +8,9 @@
   <include name="bsp/pinned-tdx.xml"/>
 
   <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="eb828418264a49b8d00035cb3d7b12fcea3be801" upstream="scarthgap"/>
-  <project name="meta-security" path="layers/meta-security" remote="yocto" revision="2d5aaeb70501953ce29641cdcb01857827510fe9" upstream="scarthgap"/>
-  <project name="meta-toradex-demos.git" path="layers/meta-toradex-demos" remote="tdx" revision="159a2d1050aef25fc449db353a0383823c9ae93a" upstream="scarthgap-7.x.y"/>
-  <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="a3d7d1b7e81cbaa977c0503cb01a9a41720d53e8" upstream="scarthgap-7.x.y">
+  <project name="meta-security" path="layers/meta-security" remote="yocto" revision="459d837338ca230254baa2994f870bf6eb9d0139" upstream="scarthgap"/>
+  <project name="meta-toradex-demos.git" path="layers/meta-toradex-demos" remote="tdx" revision="9471606777e3566864b19dc04025bdadd3ecad3a" upstream="scarthgap-7.x.y"/>
+  <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="f37f10e2eb0f0793915b583078f70c30c3135f19" upstream="scarthgap-7.x.y">
     <copyfile dest="export" src="buildconf/export"/>
   </project>
 </manifest>

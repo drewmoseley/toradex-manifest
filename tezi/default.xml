@@ -8,10 +8,10 @@
   <include name="bsp/pinned-ti.xml"/>
   <include name="bsp/pinned-tdx.xml"/>
 
-  <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="d8eeef0bfd84672c7919cd346f25f7c9a98ddaea" upstream="scarthgap"/>
+  <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="eb828418264a49b8d00035cb3d7b12fcea3be801" upstream="scarthgap"/>
   <!-- meta-toradex-distro is used for bumpSRCREV -->
-  <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="a3d7d1b7e81cbaa977c0503cb01a9a41720d53e8" upstream="scarthgap-7.x.y"/>
-  <project name="meta-toradex-tezi.git" path="layers/meta-toradex-tezi" remote="githt" revision="5cc55eaf6139573a6961c876dc5ef1986023f40c" upstream="scarthgap-7.x.y">
+  <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="f37f10e2eb0f0793915b583078f70c30c3135f19" upstream="scarthgap-7.x.y"/>
+  <project name="meta-toradex-tezi.git" path="layers/meta-toradex-tezi" remote="githt" revision="e98d13a138eba29ce882fbdb7f7062cc9d6e6517" upstream="scarthgap-7.x.y">
     <copyfile dest="export" src="conf/templates/default/export"/>
   </project>
 </manifest>
