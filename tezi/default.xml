@@ -11,7 +11,7 @@
   <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="eb828418264a49b8d00035cb3d7b12fcea3be801" upstream="scarthgap"/>
   <!-- meta-toradex-distro is used for bumpSRCREV -->
   <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="1f05dd5326416ffd9a4776e283c2816b0bd67385" upstream="scarthgap-7.x.y"/>
-  <project name="meta-toradex-tezi.git" path="layers/meta-toradex-tezi" remote="githt" revision="ce88801196285a6004a1ef5670f234f5344436bd" upstream="scarthgap-7.x.y">
+  <project name="meta-toradex-tezi.git" path="layers/meta-toradex-tezi" remote="githt" revision="b214c8485dde9f9ba88ec8ff2aefc891b3871863" upstream="scarthgap-7.x.y">
     <copyfile dest="export" src="conf/templates/default/export"/>
   </project>
 </manifest>
