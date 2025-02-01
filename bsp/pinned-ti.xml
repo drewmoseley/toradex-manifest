@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project name="meta-arm" path="layers/meta-arm" remote="yocto" revision="a8fe9d22eaefc294f91096c6a32663e2f4ab3b10" upstream="scarthgap"/>
-  <project name="meta-ti" path="layers/meta-ti" remote="yocto" revision="4213a71a8eaed4a57562c0608f9ba29efc39eede" upstream="scarthgap"/>
+  <project name="meta-ti" path="layers/meta-ti" remote="yocto" revision="71f4340b0ba3b50e2a51875df3a3e020e92b5b40" upstream="scarthgap"/>
 </manifest>
