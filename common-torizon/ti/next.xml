@@ -7,7 +7,7 @@
 
   <default sync-j="4"/>
 
-  <project name="bitbake" path="sources/bitbake" remote="oe" revision="refs/tags/2.8"/>
+  <project name="bitbake" path="sources/bitbake" remote="oe" revision="2.8"/>
   <project name="meta-arm" path="sources/meta-arm" remote="yocto" revision="scarthgap"/>
   <project name="meta-ti" path="sources/meta-ti" remote="yocto" revision="scarthgap"/>
   <project name="meta-yocto" path="sources/meta-yocto" remote="yocto" revision="scarthgap"/>
