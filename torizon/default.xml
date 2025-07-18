@@ -8,10 +8,12 @@
   <remote alias="repo" fetch="https://github.com/uptane" name="uptane"/>
   <remote alias="repo" fetch="https://github.com/toradex" name="toradex"/>
   <remote alias="repo" fetch="https://github.com/torizon" name="torizon"/>
+  <remote alias="repo" fetch="https://github.com/iris-GmbH" name="iris"/>
 
   <project name="meta-security" path="layers/meta-security" remote="yocto" revision="bc865c5276c2ab4031229916e8d7c20148dfbac3"/>
   <project name="meta-updater" path="layers/meta-updater" remote="uptane" revision="4755f67389a34869ce7e36d15df8d94b74272355"/>
   <project name="meta-virtualization" path="layers/meta-virtualization" remote="yocto" revision="9e040ee8dd6025558ea60ac9db60c41bfeddf221"/>
+  <project name="meta-cyclonedx" path="layers/meta-cyclonedx" remote="iris" revision="4c9d4db2c25791baa17469d27cf6934ace5c3376"/>
   <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="e808259783ae03856eb908fae18bb5279dac78c7"/>
   <project name="meta-toradex-security" path="layers/meta-toradex-security" remote="toradex" revision="2287e56801bd136529b72b3a0ebf453199e1a31d"/>
   <project name="meta-toradex-torizon" path="layers/meta-toradex-torizon" remote="torizon" revision="e98ce11bfebc473dc014c09251d8deb3d338f14e">
