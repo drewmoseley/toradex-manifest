@@ -5,10 +5,8 @@
   <include name="bsp/integration-ti.xml"/>
   <include name="bsp/integration-tdx.xml" />
 
-  <remote alias="repo" fetch="https://github.com/meta-qt5" name="githq"/>
   <remote alias="repo" fetch="https://gitlab.com/toradex/rd/testing/som-fct" name="gitltdx"/>
 
-  <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="scarthgap"/>
   <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="scarthgap-7.x.y"/>
   <project name="meta-toradex-somfctdut.git" path="layers/meta-toradex-somfctdut" remote="gitltdx" revision="scarthgap-7.x.y">
     <copyfile dest="export_somfctdut" src="buildconf/export"/>
