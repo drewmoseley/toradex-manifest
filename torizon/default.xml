@@ -11,12 +11,12 @@
   <remote alias="repo" fetch="https://github.com/iris-GmbH" name="iris"/>
 
   <project name="meta-security" path="layers/meta-security" remote="yocto" revision="bc865c5276c2ab4031229916e8d7c20148dfbac3"/>
-  <project name="meta-updater" path="layers/meta-updater" remote="uptane" revision="e9a184328da1e3294d7fcde5c1d9a1a8c35e6a02"/>
-  <project name="meta-virtualization" path="layers/meta-virtualization" remote="yocto" revision="a5449c0c50aa07d02186f548fe6bb6c1ce8823dc"/>
-  <project name="meta-cyclonedx" path="layers/meta-cyclonedx" remote="iris" revision="4c9d4db2c25791baa17469d27cf6934ace5c3376"/>
-  <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="6b1235660d050156e9e5ad18382bcbe24c91fa1e"/>
-  <project name="meta-toradex-security" path="layers/meta-toradex-security" remote="toradex" revision="5459a1cdb70ea7877f8469e7b47232333a5d1f32"/>
-  <project name="meta-toradex-torizon" path="layers/meta-toradex-torizon" remote="torizon" revision="2c3260d93769b7e84a9645d23f7b555acf601438">
+  <project name="meta-updater" path="layers/meta-updater" remote="uptane" revision="b275153c9c8ea09e27d41db9f2faba3ebf92d2c2"/>
+  <project name="meta-virtualization" path="layers/meta-virtualization" remote="yocto" revision="151273b120117468e70733020b6db864d8180c0b"/>
+  <project name="meta-cyclonedx" path="layers/meta-cyclonedx" remote="iris" revision="0c0c387bb841335581e5b30c999027cad29d4e04"/>
+  <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="71da074be702f163567804b0e7235a8b3f6a806a"/>
+  <project name="meta-toradex-security" path="layers/meta-toradex-security" remote="toradex" revision="f5efd09c3ceca267db936a4083c3d56dba7f1258"/>
+  <project name="meta-toradex-torizon" path="layers/meta-toradex-torizon" remote="torizon" revision="21f35318acf7a25be6fe82561d9b4a80cd256f65">
     <linkfile dest="setup-environment" src="scripts/setup-environment"/>
   </project>
 </manifest>
