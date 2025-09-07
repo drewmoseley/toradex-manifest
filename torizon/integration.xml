@@ -3,6 +3,11 @@
   <include name="base/pinned.xml"/>
   <include name="bsp/pinned-nxp.xml"/>
   <include name="bsp/pinned-ti.xml"/>
+
+  <!--
+    non-feature-freeze: include "bsp/integration-tdx.xml"
+    feature-freeze:     include "bsp/pinned-tdx.xml"
+  -->
   <include name="bsp/integration-tdx.xml"/>
 
   <remote alias="repo" fetch="https://github.com/uptane" name="uptane"/>
@@ -10,12 +15,29 @@
   <remote alias="repo" fetch="https://github.com/torizon" name="torizon"/>
   <remote alias="repo" fetch="https://github.com/iris-GmbH" name="iris"/>
 
+  <!--
+    Update the hashes of these external layers when leaving feaure freeze (to the tip of the
+    appropriate branches).
+  -->
   <project name="meta-security" path="layers/meta-security" remote="yocto" revision="459d837338ca230254baa2994f870bf6eb9d0139"/>
   <project name="meta-updater" path="layers/meta-updater" remote="uptane" revision="fad71a6a9e9757eb376bea8c0cde1dcee14549fb"/>
   <project name="meta-virtualization" path="layers/meta-virtualization" remote="yocto" revision="6f3c1d8f90947408a6587be222fec575a1ca5195"/>
   <project name="meta-cyclonedx" path="layers/meta-cyclonedx" remote="iris" revision="4c9d4db2c25791baa17469d27cf6934ace5c3376"/>
+
+  <!--
+    meta-toradex-distro:
+    non-feature-freeze: revision set to "scarthgap-7.x.y" (branch name)
+    feature-freeze:     revision set to the same as in "tdxref/default.xml" (hash)
+  -->
   <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="scarthgap-7.x.y"/>
+
+  <!--
+    meta-toradex-security:
+    non-feature-freeze: revision set to "scarthgap-7.x.y" (branch name)
+    feature-freeze:     revision set to latest commit in "scarthgap-7.x.y" (hash)
+  -->
   <project name="meta-toradex-security" path="layers/meta-toradex-security" remote="toradex" revision="scarthgap-7.x.y"/>
+
   <project name="meta-toradex-torizon" path="layers/meta-toradex-torizon" remote="torizon" revision="scarthgap-7.x.y">
     <linkfile dest="setup-environment" src="scripts/setup-environment"/>
   </project>
