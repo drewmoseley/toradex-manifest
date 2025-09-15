@@ -19,10 +19,10 @@
     Update the hashes of these external layers when leaving feaure freeze (to the tip of the
     appropriate branches).
   -->
-  <project name="meta-security" path="layers/meta-security" remote="yocto" revision="459d837338ca230254baa2994f870bf6eb9d0139"/>
-  <project name="meta-updater" path="layers/meta-updater" remote="uptane" revision="fad71a6a9e9757eb376bea8c0cde1dcee14549fb"/>
-  <project name="meta-virtualization" path="layers/meta-virtualization" remote="yocto" revision="6f3c1d8f90947408a6587be222fec575a1ca5195"/>
-  <project name="meta-cyclonedx" path="layers/meta-cyclonedx" remote="iris" revision="4c9d4db2c25791baa17469d27cf6934ace5c3376"/>
+  <project name="meta-security" path="layers/meta-security" remote="yocto" revision="bc865c5276c2ab4031229916e8d7c20148dfbac3"/>
+  <project name="meta-updater" path="layers/meta-updater" remote="uptane" revision="b275153c9c8ea09e27d41db9f2faba3ebf92d2c2"/>
+  <project name="meta-virtualization" path="layers/meta-virtualization" remote="yocto" revision="af1db2042caf8021d767dce1b26c08b59b96f3d1"/>
+  <project name="meta-cyclonedx" path="layers/meta-cyclonedx" remote="iris" revision="0f4bb59c5c07e66812ae9f8e0aa629f44e80619e"/>
 
   <!--
     meta-toradex-distro:
