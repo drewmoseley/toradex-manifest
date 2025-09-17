@@ -4,5 +4,5 @@
 
   <project name="meta-freescale-3rdparty.git" path="layers/meta-freescale-3rdparty" remote="githf" revision="70c83e96c7f75e73245cb77f1b0cada9ed4bbc6d" upstream="scarthgap"/>
   <project name="meta-freescale-distro.git" path="layers/meta-freescale-distro" remote="githf" revision="b9d6a5d9931922558046d230c1f5f4ef6ee72345" upstream="scarthgap"/>
-  <project name="meta-freescale.git" path="layers/meta-freescale" remote="githf" revision="212f4b3b175f6d58c691192545454cd2d2e908d9" upstream="scarthgap"/>
+  <project name="meta-freescale.git" path="layers/meta-freescale" remote="githf" revision="14b22183c2f5dae89675bc397a3f3d10d555a519" upstream="scarthgap"/>
 </manifest>
