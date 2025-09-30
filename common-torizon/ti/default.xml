@@ -7,6 +7,11 @@
 
   <default sync-j="4"/>
 
+  <!--
+    When doing a monthly or quarterly release, the hashes below must be copied from "common-torizon/integration.xml",
+    except for layer meta-toradex-torizon which in the integration manifest is referenced by branch but here should
+    be referenced by the corresponding hash.
+  -->
   <project name="bitbake" path="sources/bitbake" remote="oe" revision="6c2641f7a9e92c1b82e306f59ddd3c1249c52cbf"/>
   <project name="meta-arm" path="sources/meta-arm" remote="yocto" revision="7088279c0ab00c7dabefdd4544951b4746b48476"/>
   <project name="meta-ti" path="sources/meta-ti" remote="yocto" revision="3de174b8c5807a5194b492a55d991ec628d937a8"/>

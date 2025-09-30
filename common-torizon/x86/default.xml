@@ -7,6 +7,11 @@
 
   <default sync-j="4"/>
 
+  <!--
+    When doing a monthly or quarterly release, the hashes below must be copied from "common-torizon/integration.xml",
+    except for layer meta-toradex-torizon which in the integration manifest is referenced by branch but here should
+    be referenced by the corresponding hash.
+  -->
   <project name="poky" path="layers/poky" remote="yocto" revision="184adcbc322f040614bc0c080c25a64252fcd58b"/>
   <project name="meta-intel" path="layers/meta-intel" remote="yocto" revision="0be954e82f09d235d2b5e5ea01bb62ffa8d0b5f7"/>
   <project name="meta-updater" path="layers/meta-updater" remote="uptane" revision="fa550d14caebb16fede2a428ac0db66f2d0f893b"/>
