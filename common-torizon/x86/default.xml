@@ -17,7 +17,7 @@
   <project name="meta-updater" path="layers/meta-updater" remote="uptane" revision="fa550d14caebb16fede2a428ac0db66f2d0f893b"/>
   <project name="meta-virtualization" path="layers/meta-virtualization" remote="yocto" revision="79673f5c67b022e7aadeb231872470295e5b9188"/>
   <project name="meta-openembedded" path="layers/meta-openembedded" remote="oe" revision="dda0d53326017d6758ec6bdfdaf2f484c089d13f"/>
-  <project name="meta-toradex-torizon" path="layers/meta-toradex-torizon" remote="torizon" revision="15f361c6f05c615cdb7f2537d6ecb9bbc9664269">
+  <project name="meta-toradex-torizon" path="layers/meta-toradex-torizon" remote="torizon" revision="57033a2a510b6b3709984e2253bc14fc64cf5579">
     <linkfile dest="setup-environment" src="scripts/setup-environment"/>
   </project>
 </manifest>
