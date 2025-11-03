@@ -18,7 +18,7 @@
   <project name="meta-security" path="layers/meta-security" remote="yocto" revision="bc865c5276c2ab4031229916e8d7c20148dfbac3"/>
   <project name="meta-updater" path="layers/meta-updater" remote="uptane" revision="b275153c9c8ea09e27d41db9f2faba3ebf92d2c2"/>
   <project name="meta-virtualization" path="layers/meta-virtualization" remote="yocto" revision="af1db2042caf8021d767dce1b26c08b59b96f3d1"/>
-  <project name="meta-cyclonedx" path="layers/meta-cyclonedx" remote="iris" revision="a15e8d0f348c1c277f1758191647ea1ea619d9d1"/>
+  <project name="meta-cyclonedx" path="layers/meta-cyclonedx" remote="iris" revision="8ec6fe727c7a483efd8a7804a1cb6c5d7964a19f"/>
 
   <!--
     meta-toradex-distro:
