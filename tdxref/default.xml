@@ -7,10 +7,10 @@
   <include name="bsp/pinned-ti.xml"/>
   <include name="bsp/pinned-tdx.xml"/>
 
-  <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="e197839013fa2cfd59339508303bce91fef48928" upstream="scarthgap"/>
-  <project name="meta-security" path="layers/meta-security" remote="yocto" revision="bc865c5276c2ab4031229916e8d7c20148dfbac3" upstream="scarthgap"/>
+  <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="9ae2fe2696b10f5dc4253c4f467dc388139860bd" upstream="scarthgap"/>
+  <project name="meta-security" path="layers/meta-security" remote="yocto" revision="afbbe28cee4af2c6760aaead43a4a3ef29969809" upstream="scarthgap"/>
   <project name="meta-toradex-demos.git" path="layers/meta-toradex-demos" remote="tdx" revision="4ba1cebc6909ee7a83d569e8cc748f69e6a0a24f" upstream="scarthgap-7.x.y"/>
-  <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="71f3887a63d9b10b925afd75d6fb00085cd420b3" upstream="scarthgap-7.x.y">
+  <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="65a1511acecc37d9e9252c588bc57ac7944c92f5" upstream="scarthgap-7.x.y">
     <copyfile dest="export" src="buildconf/export"/>
   </project>
 </manifest>
