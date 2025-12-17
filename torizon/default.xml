@@ -15,13 +15,13 @@
     except for layer meta-toradex-torizon which in the integration manifest is referenced by branch but here
     should be referenced by the corresponding hash.
   -->
-  <project name="meta-security" path="layers/meta-security" remote="yocto" revision="afbbe28cee4af2c6760aaead43a4a3ef29969809"/>
+  <project name="meta-security" path="layers/meta-security" remote="yocto" revision="97e482b71688b62ac1109d16e89368122f039cbf"/>
   <project name="meta-updater" path="layers/meta-updater" remote="uptane" revision="b275153c9c8ea09e27d41db9f2faba3ebf92d2c2"/>
-  <project name="meta-virtualization" path="layers/meta-virtualization" remote="yocto" revision="17ac21e7d7f6f40a87618b22278b63bcfa14dbf2"/>
-  <project name="meta-cyclonedx" path="layers/meta-cyclonedx" remote="iris" revision="c726b41adb7d76ca3ea56faac0a4e2c9891f9668"/>
-  <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="71f3887a63d9b10b925afd75d6fb00085cd420b3"/>
-  <project name="meta-toradex-security" path="layers/meta-toradex-security" remote="toradex" revision="749cda99f62fb77d354c0d95bd39cc598175e0da"/>
-  <project name="meta-toradex-torizon" path="layers/meta-toradex-torizon" remote="torizon" revision="b9b3fbb2fff5d0cebde6fad480ffe47825b51e62">
+  <project name="meta-virtualization" path="layers/meta-virtualization" remote="yocto" revision="f92518e20530edfebca45e4170e11460949a5303"/>
+  <project name="meta-cyclonedx" path="layers/meta-cyclonedx" remote="iris" revision="397efda0527620f6fdc08d9a1457093433333bef"/>
+  <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="c55b5b491427ac1f129dcd905bb9956feecd31a4"/>
+  <project name="meta-toradex-security" path="layers/meta-toradex-security" remote="toradex" revision="1d0420b32946cda80a68b72d4f846d50ed5bceac"/>
+  <project name="meta-toradex-torizon" path="layers/meta-toradex-torizon" remote="torizon" revision="25cb4d6e84d8788735a52a9a2228ca8c68c484d5">
     <linkfile dest="setup-environment" src="scripts/setup-environment"/>
   </project>
 </manifest>
