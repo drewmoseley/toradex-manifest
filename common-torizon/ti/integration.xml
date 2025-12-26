@@ -13,7 +13,7 @@
   -->
   <project name="bitbake" path="sources/bitbake" remote="oe" revision="1c9ec1ffde75809de34c10d3ec2b40d84d258cb4"/>
   <project name="meta-arm" path="sources/meta-arm" remote="yocto" revision="0f1e7bf92c89759f0ab74cfa5be4ee47b092ad46"/>
-  <project name="meta-ti" path="sources/meta-ti" remote="yocto" revision="cd2b3b89819ea58115e6be9213795fab0848298e"/>
+  <project name="meta-ti" path="sources/meta-ti" remote="yocto" revision="ea8c0b1cf1ab8a0b327e3feb1144c1ccf05b8278"/>
   <project name="meta-yocto" path="sources/meta-yocto" remote="yocto" revision="3ff7ca786732390cd56ae92ff4a43aba46a1bf2e"/>
   <project name="openembedded-core" path="sources/oe-core" remote="oe" revision="649147913e89cd8f7390cb17cd0be94c9710ffa6"/>
   <project name="meta-updater" path="sources/meta-updater" remote="uptane" revision="b275153c9c8ea09e27d41db9f2faba3ebf92d2c2"/>
