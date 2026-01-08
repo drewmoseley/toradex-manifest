@@ -8,7 +8,7 @@
     non-feature-freeze: include "bsp/integration-tdx.xml"
     feature-freeze:     include "bsp/pinned-tdx.xml"
   -->
-  <include name="bsp/integration-tdx.xml"/>
+  <include name="bsp/pinned-tdx.xml"/>
 
   <remote alias="repo" fetch="https://github.com/uptane" name="uptane"/>
   <remote alias="repo" fetch="https://github.com/toradex" name="toradex"/>
@@ -25,14 +25,14 @@
     non-feature-freeze: revision set to "scarthgap-7.x.y" (branch name)
     feature-freeze:     revision set to the same as in "tdxref/default.xml" (hash)
   -->
-  <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="scarthgap-7.x.y"/>
+  <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="71f3887a63d9b10b925afd75d6fb00085cd420b3"/>
 
   <!--
     meta-toradex-security:
     non-feature-freeze: revision set to "scarthgap-7.x.y" (branch name)
     feature-freeze:     revision set to latest commit in "scarthgap-7.x.y" (hash)
   -->
-  <project name="meta-toradex-security" path="layers/meta-toradex-security" remote="toradex" revision="scarthgap-7.x.y"/>
+  <project name="meta-toradex-security" path="layers/meta-toradex-security" remote="toradex" revision="749cda99f62fb77d354c0d95bd39cc598175e0da"/>
 
   <project name="meta-toradex-torizon" path="layers/meta-toradex-torizon" remote="torizon" revision="scarthgap-7.x.y">
     <linkfile dest="setup-environment" src="scripts/setup-environment"/>
