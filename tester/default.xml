@@ -8,7 +8,7 @@
   <remote alias="repo" fetch="https://gitlab.com/toradex/rd/testing/som-fct" name="gitltdx"/>
 
   <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="65a1511acecc37d9e9252c588bc57ac7944c92f5" upstream="scarthgap-7.x.y"/>
-  <project name="meta-toradex-somfctdut.git" path="layers/meta-toradex-somfctdut" remote="gitltdx" revision="10a90f92f05dcac8aa4f8b1e33c9835aac707f4f" upstream="scarthgap-7.x.y">
+  <project name="meta-toradex-somfctdut.git" path="layers/meta-toradex-somfctdut" remote="gitltdx" revision="9ac30ff3f3681c0e483e4e6c0770afd82815ff96" upstream="scarthgap-7.x.y">
     <copyfile dest="export_somfctdut" src="buildconf/export"/>
   </project>
 </manifest>
