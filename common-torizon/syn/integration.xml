@@ -10,7 +10,7 @@
     Update the hashes of these external layers when leaving feaure freeze (to the tip of the
     appropriate branches).
   -->
-  <project name="sdk" path="layers" remote="synaptics" revision="2021cc644a7067ea8fe7c427eb764523ac4e03da"/>
+  <project name="sdk" path="layers" remote="synaptics" revision="e34b2a32f53bc8aeefce39919c3b11390d97d4b5"/>
   <project name="meta-updater" path="layers/meta-updater" remote="uptane" revision="b275153c9c8ea09e27d41db9f2faba3ebf92d2c2"/>
 
   <project name="meta-toradex-torizon" path="layers/meta-toradex-torizon" remote="torizon" revision="scarthgap-7.x.y">

@@ -6,7 +6,7 @@
 
   <default sync-j="4" sync-s="true"/>
 
-  <project name="sdk" path="layers" remote="synaptics" revision="scarthgap_6.12_v2.0.0"/>
+  <project name="sdk" path="layers" remote="synaptics" revision="scarthgap_6.12_v2.1.0"/>
   <project name="meta-updater" path="layers/meta-updater" remote="uptane" revision="scarthgap"/>
 
   <project name="meta-toradex-torizon" path="layers/meta-toradex-torizon" remote="torizon" revision="scarthgap-7.x.y">
