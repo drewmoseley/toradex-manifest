@@ -7,7 +7,7 @@
   <include name="bsp/pinned-ti.xml"/>
   <include name="bsp/integration-tdx.xml"/>
 
-  <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="a0a008a9cef4c24c6ad31d2d3b37995533eed2ea" upstream="scarthgap"/>
+  <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="310a54596785d51db89039f44c564a3aa50744ef" upstream="scarthgap"/>
   <project name="meta-security" path="layers/meta-security" remote="yocto" revision="97e482b71688b62ac1109d16e89368122f039cbf" upstream="scarthgap"/>
   <project name="meta-toradex-demos.git" path="layers/meta-toradex-demos" remote="tdx" revision="scarthgap-7.x.y"/>
   <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="scarthgap-7.x.y">
