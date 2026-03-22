@@ -8,7 +8,7 @@
   <include name="bsp/pinned-ti.xml"/>
   <include name="bsp/integration-tdx.xml"/>
 
-  <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="310a54596785d51db89039f44c564a3aa50744ef" upstream="scarthgap"/>
+  <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="227cf5e7b64c93dfc1a45f235c466db8c3fd8707" upstream="scarthgap"/>
   <!-- meta-toradex-distro is used for bumpSRCREV -->
   <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="scarthgap-7.x.y"/>
   <project name="meta-toradex-tezi.git" path="layers/meta-toradex-tezi" remote="githt" revision="scarthgap-7.x.y">
