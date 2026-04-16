@@ -12,12 +12,12 @@
     except for layer meta-toradex-torizon which in the integration manifest is referenced by branch but here should
     be referenced by the corresponding hash.
   -->
-  <project name="poky" path="layers/poky" remote="yocto" revision="ad597f4a54ec5b51677160d537b87b1b7e3828db"/>
+  <project name="poky" path="layers/poky" remote="yocto" revision="72983ac391008ebceb45edc7a8f0f6d5f4fe715c"/>
   <project name="meta-intel" path="layers/meta-intel" remote="yocto" revision="6fc37057c7f0293a2345e303588901889df8b937"/>
   <project name="meta-updater" path="layers/meta-updater" remote="uptane" revision="b275153c9c8ea09e27d41db9f2faba3ebf92d2c2"/>
-  <project name="meta-virtualization" path="layers/meta-virtualization" remote="yocto" revision="af1db2042caf8021d767dce1b26c08b59b96f3d1"/>
-  <project name="meta-openembedded" path="layers/meta-openembedded" remote="oe" revision="e621da947048842109db1b4fd3917a02e0501aa2"/>
-  <project name="meta-toradex-torizon" path="layers/meta-toradex-torizon" remote="torizon" revision="812d00b8f0388712049cbb70bc681386004fda5e">
+  <project name="meta-virtualization" path="layers/meta-virtualization" remote="yocto" revision="f92518e20530edfebca45e4170e11460949a5303"/>
+  <project name="meta-openembedded" path="layers/meta-openembedded" remote="oe" revision="2759d8870ea387b76c902070bed8a6649ff47b56"/>
+  <project name="meta-toradex-torizon" path="layers/meta-toradex-torizon" remote="torizon" revision="36905bed9d003c97ffa3c3b6e0898b4b619e7f89">
     <linkfile dest="setup-environment" src="scripts/setup-environment"/>
   </project>
 </manifest>

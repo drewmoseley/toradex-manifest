@@ -12,9 +12,9 @@
     be referenced by the corresponding hash.
   -->
   <project name="sdk" path="layers" remote="synaptics" revision="e34b2a32f53bc8aeefce39919c3b11390d97d4b5"/>
-  <project name="meta-updater" path="layers/meta-updater" remote="uptane" revision="ecc4dbbfd062a8bd190c56858c661c437ce92d25"/>
+  <project name="meta-updater" path="layers/meta-updater" remote="uptane" revision="b275153c9c8ea09e27d41db9f2faba3ebf92d2c2"/>
 
-  <project name="meta-toradex-torizon" path="layers/meta-toradex-torizon" remote="torizon" revision="adc87e3cf3800c6022dbbf663f150b169c9166fd">
+  <project name="meta-toradex-torizon" path="layers/meta-toradex-torizon" remote="torizon" revision="36905bed9d003c97ffa3c3b6e0898b4b619e7f89">
     <linkfile dest="setup-environment" src="scripts/setup-environment"/>
   </project>
 </manifest>

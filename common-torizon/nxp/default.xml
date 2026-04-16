@@ -49,7 +49,7 @@
   <project name="meta-nxp-demo-experience" remote="nxp-support" path="sources/meta-nxp-demo-experience" revision="refs/tags/rel_imx_6.6.52_2.2.0" upstream="scarthgap-6.6.52-2.2.0"/>
 
   <project name="meta-updater" path="sources/meta-updater" remote="uptane" revision="b275153c9c8ea09e27d41db9f2faba3ebf92d2c2"/>
-  <project name="meta-toradex-torizon" path="sources/meta-toradex-torizon" remote="torizon" revision="442f3c672c9b871da27edf4d26f49c9bbeac3d41">
+  <project name="meta-toradex-torizon" path="sources/meta-toradex-torizon" remote="torizon" revision="36905bed9d003c97ffa3c3b6e0898b4b619e7f89">
     <linkfile dest="torizon-setup-environment" src="scripts/setup-environment"/>
   </project>
 </manifest>

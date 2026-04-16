@@ -12,15 +12,15 @@
     except for layer meta-toradex-torizon which in the integration manifest is referenced by branch but here should
     be referenced by the corresponding hash.
   -->
-  <project name="bitbake" path="sources/bitbake" remote="oe" revision="1c9ec1ffde75809de34c10d3ec2b40d84d258cb4"/>
-  <project name="meta-arm" path="sources/meta-arm" remote="yocto" revision="0f1e7bf92c89759f0ab74cfa5be4ee47b092ad46"/>
-  <project name="meta-ti" path="sources/meta-ti" remote="yocto" revision="ea8c0b1cf1ab8a0b327e3feb1144c1ccf05b8278"/>
-  <project name="meta-yocto" path="sources/meta-yocto" remote="yocto" revision="3ff7ca786732390cd56ae92ff4a43aba46a1bf2e"/>
-  <project name="openembedded-core" path="sources/oe-core" remote="oe" revision="649147913e89cd8f7390cb17cd0be94c9710ffa6"/>
+  <project name="bitbake" path="sources/bitbake" remote="oe" revision="8dcf084522b9c66a6639b5f117f554fde9b6b45a"/>
+  <project name="meta-arm" path="sources/meta-arm" remote="yocto" revision="a81c19915b5b9e71ed394032e9a50fd06919e1cd"/>
+  <project name="meta-ti" path="sources/meta-ti" remote="yocto" revision="da28ae30cabd39ebce054ea2e230548d9b9c3322"/>
+  <project name="meta-yocto" path="sources/meta-yocto" remote="yocto" revision="9bb6e6e8b016a0c9dfe290369a6ed91ef4020535"/>
+  <project name="openembedded-core" path="sources/oe-core" remote="oe" revision="6988157ad983978ffd6b12bcefedd4deaffdbbd1"/>
   <project name="meta-updater" path="sources/meta-updater" remote="uptane" revision="b275153c9c8ea09e27d41db9f2faba3ebf92d2c2"/>
-  <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="af1db2042caf8021d767dce1b26c08b59b96f3d1"/>
-  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="e621da947048842109db1b4fd3917a02e0501aa2"/>
-  <project name="meta-toradex-torizon" path="sources/meta-toradex-torizon" remote="torizon" revision="812d00b8f0388712049cbb70bc681386004fda5e">
+  <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="f92518e20530edfebca45e4170e11460949a5303"/>
+  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="2759d8870ea387b76c902070bed8a6649ff47b56"/>
+  <project name="meta-toradex-torizon" path="sources/meta-toradex-torizon" remote="torizon" revision="36905bed9d003c97ffa3c3b6e0898b4b619e7f89">
     <linkfile dest="setup-environment" src="scripts/setup-environment"/>
   </project>
 </manifest>
