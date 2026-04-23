@@ -11,7 +11,7 @@
     appropriate branches).
   -->
   <project name="sdk" path="layers" remote="synaptics" revision="e34b2a32f53bc8aeefce39919c3b11390d97d4b5"/>
-  <project name="meta-updater" path="layers/meta-updater" remote="uptane" revision="b275153c9c8ea09e27d41db9f2faba3ebf92d2c2"/>
+  <project name="meta-updater" path="layers/meta-updater" remote="uptane" revision="bb7dd09fe59f718727262cc30716c0a4e3397d41"/>
 
   <project name="meta-toradex-torizon" path="layers/meta-toradex-torizon" remote="torizon" revision="scarthgap-7.x.y">
     <linkfile dest="setup-environment" src="scripts/setup-environment"/>
