@@ -11,14 +11,14 @@
     Update the hashes of these external layers when leaving feaure freeze (to the tip of the
     appropriate branches).
   -->
-  <project name="bitbake" path="sources/bitbake" remote="oe" revision="8dcf084522b9c66a6639b5f117f554fde9b6b45a"/>
+  <project name="bitbake" path="sources/bitbake" remote="oe" revision="d3b4c352dd33fca90cd31649eda054b884478739"/>
   <project name="meta-arm" path="sources/meta-arm" remote="yocto" revision="a81c19915b5b9e71ed394032e9a50fd06919e1cd"/>
-  <project name="meta-ti" path="sources/meta-ti" remote="yocto" revision="da28ae30cabd39ebce054ea2e230548d9b9c3322"/>
-  <project name="meta-yocto" path="sources/meta-yocto" remote="yocto" revision="9bb6e6e8b016a0c9dfe290369a6ed91ef4020535"/>
-  <project name="openembedded-core" path="sources/oe-core" remote="oe" revision="6988157ad983978ffd6b12bcefedd4deaffdbbd1"/>
-  <project name="meta-updater" path="sources/meta-updater" remote="uptane" revision="b275153c9c8ea09e27d41db9f2faba3ebf92d2c2"/>
-  <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="f92518e20530edfebca45e4170e11460949a5303"/>
-  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="2759d8870ea387b76c902070bed8a6649ff47b56"/>
+  <project name="meta-ti" path="sources/meta-ti" remote="yocto" revision="a444d3137a527d4a405986a5ffa143ed7dfc0961"/>
+  <project name="meta-yocto" path="sources/meta-yocto" remote="yocto" revision="c7c38663a1cafb1fa8593c0b246811e51d3bbe20"/>
+  <project name="openembedded-core" path="sources/oe-core" remote="oe" revision="52380df998b3a8fe6a091f8547434a3231320a8e"/>
+  <project name="meta-updater" path="sources/meta-updater" remote="uptane" revision="e343d2e65857d62760554b441b3925010d7015fe"/>
+  <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="3dd635f613f7299d986a8ab6bc9f584370f8ed1d"/>
+  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="5124ac4a658899158f4a7a2ddf1d2ca931ec7d0e"/>
 
   <project name="meta-toradex-torizon" path="sources/meta-toradex-torizon" remote="torizon" revision="scarthgap-7.x.y">
     <linkfile dest="setup-environment" src="scripts/setup-environment"/>
