@@ -13,9 +13,9 @@
   <project name="meta-webkit.git" path="layers/meta-webkit" remote="githigalia" revision="2d29669a3d78e462276044f3f8bde0e4dec33696" upstream="scarthgap"/>
   <project name="meta-security" path="layers/meta-security" remote="yocto" revision="97e482b71688b62ac1109d16e89368122f039cbf" upstream="scarthgap"/>
   <project name="meta-toradex-demos.git" path="layers/meta-toradex-demos" remote="tdx" revision="28b67de839fd5cb32da42b65a8a700781fb72144" upstream="scarthgap-7.x.y"/>
-  <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="c55b5b491427ac1f129dcd905bb9956feecd31a4" upstream="scarthgap-7.x.y"/>
+  <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="c64f24727eaa741c2546bcf03bac5411e8a2f993" upstream="scarthgap-7.x.y"/>
 
-  <project name="meta-toradex-somfctdut.git" path="layers/meta-toradex-somfctdut" remote="gitltdx" revision="9ac30ff3f3681c0e483e4e6c0770afd82815ff96" upstream="scarthgap-7.x.y">
+  <project name="meta-toradex-somfctdut.git" path="layers/meta-toradex-somfctdut" remote="gitltdx" revision="d5fadfb17790e0fd070cf1db0a333ebc9b9a248e" upstream="scarthgap-7.x.y">
     <copyfile dest="export_somfctdut" src="buildconf/export"/>
   </project>
 
