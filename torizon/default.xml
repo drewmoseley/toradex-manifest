@@ -19,9 +19,9 @@
   <project name="meta-updater" path="layers/meta-updater" remote="uptane" revision="b275153c9c8ea09e27d41db9f2faba3ebf92d2c2"/>
   <project name="meta-virtualization" path="layers/meta-virtualization" remote="yocto" revision="f92518e20530edfebca45e4170e11460949a5303"/>
   <project name="meta-cyclonedx" path="layers/meta-cyclonedx" remote="iris" revision="397efda0527620f6fdc08d9a1457093433333bef"/>
-  <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="024f1bbf16d480c25f90387a0f2cac2d071c2b18"/>
-  <project name="meta-toradex-security" path="layers/meta-toradex-security" remote="toradex" revision="ecb94fd199ffe2f3bbc17740d9d0ad90ef463006"/>
-  <project name="meta-toradex-torizon" path="layers/meta-toradex-torizon" remote="torizon" revision="ed8037739a5f12bfdd7ef1643a28d89492bcd182">
+  <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="c64f24727eaa741c2546bcf03bac5411e8a2f993"/>
+  <project name="meta-toradex-security" path="layers/meta-toradex-security" remote="toradex" revision="9650a539e38ac0be0dbfa695b184b2846638f857"/>
+  <project name="meta-toradex-torizon" path="layers/meta-toradex-torizon" remote="torizon" revision="25476c20b652a1e16a0093dce22345407a5ba76a">
     <linkfile dest="setup-environment" src="scripts/setup-environment"/>
   </project>
 </manifest>
