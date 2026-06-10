@@ -16,7 +16,7 @@
 
   <project name="meta-openembedded" remote="oe" path="layers/meta-openembedded" revision="scarthgap" upstream="scarthgap"/>
   <project name="openembedded-core" remote="oe" path="layers/openembedded-core" revision="scarthgap" upstream="scarthgap"/>
-  <project name="bitbake" path="layers/openembedded-core/bitbake" remote="oe" revision="master"/>
+  <project name="bitbake" path="layers/openembedded-core/bitbake" remote="oe" revision="2.8"/>
 
   <project name="meta-freescale" remote="community" path="layers/meta-freescale" revision="scarthgap" upstream="scarthgap"/>
   <project name="meta-freescale-3rdparty" remote="community" path="layers/meta-freescale-3rdparty" revision="scarthgap" upstream="scarthgap"/>
