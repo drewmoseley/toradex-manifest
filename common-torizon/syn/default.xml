@@ -30,7 +30,7 @@
   <project name="meta-qt5" path="layers/meta-qt5" remote="qt" revision="eb828418264a49b8d00035cb3d7b12fcea3be801" upstream="upstream/scarthgap"/>
   <project name="poky" path="layers/poky" remote="yp" revision="d4576e3c081a7ee7b57d48421c4c4f491cb4defe" upstream="scarthgap"/>
 
-  <project name="meta-toradex-torizon" path="layers/meta-toradex-torizon" remote="torizon" revision="d45e7d770edc7d08ad300309cd654f0b4e13ac7f">
+  <project name="meta-toradex-torizon" path="layers/meta-toradex-torizon" remote="torizon" revision="aff152f42c21e10bd6b9224ef130bbbe207e8200">
     <linkfile dest="setup-environment" src="scripts/setup-environment"/>
   </project>
 </manifest>
