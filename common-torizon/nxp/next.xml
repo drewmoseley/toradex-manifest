@@ -22,9 +22,7 @@
   <project name="meta-openembedded" remote="oe" path="sources/meta-openembedded"/>
   <project name="meta-clang" remote="kraj" path="sources/meta-clang"/>
 
-  <project name="fsl-community-bsp-base" remote="community" path="sources/base">
-    <linkfile dest="setup-environment" src="setup-environment"/>
-  </project>
+  <project name="fsl-community-bsp-base" remote="community" path="sources/base"/>
 
   <project name="meta-freescale" remote="community" path="sources/meta-freescale"/>
   <project name="meta-freescale-3rdparty" remote="community" path="sources/meta-freescale-3rdparty"/>
@@ -50,6 +48,6 @@
 
   <project name="meta-updater" path="sources/meta-updater" remote="uptane"/>
   <project name="meta-toradex-torizon" path="sources/meta-toradex-torizon" remote="torizon" revision="scarthgap-7.x.y">
-    <linkfile dest="torizon-setup-environment" src="scripts/setup-environment"/>
+    <linkfile dest="setup-environment" src="scripts/setup-environment"/>
   </project>
 </manifest>
