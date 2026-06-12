@@ -26,7 +26,7 @@
   <project name="meta-swupdate" path="layers/meta-swupdate" remote="swupdate" revision="4a65b1ed36c0b6ee4942d5f23c4984552b17cfe6"/>
   <project name="meta-virtualization" path="layers/meta-virtualization" remote="yp" revision="450941a1b6df96285691e8c23d4f332d3c88a994" upstream="scarthgap"/>
   <project name="meta-selinux" path="layers/meta-selinux" remote="yp" revision="30a49ab1298d2a081089a9e4c760a9e02f8100f6" upstream="scarthgap"/>
-  <project name="meta-lts-mixins" path="layers/meta-lts-mixins" remote="yp" revision="1793a1b8fc92cf8688c72b7fd4181e3a2f5ade55" upstream="scarthgap/rust"/>
+  <project name="meta-lts-mixins" path="layers/meta-lts-mixins" remote="yp" revision="c19b6da5a3afd3c892b3b1b44983e993ac6d5308" upstream="scarthgap/rust"/>
   <project name="meta-qt5" path="layers/meta-qt5" remote="qt" revision="eb828418264a49b8d00035cb3d7b12fcea3be801" upstream="upstream/scarthgap"/>
   <project name="poky" path="layers/poky" remote="yp" revision="d4576e3c081a7ee7b57d48421c4c4f491cb4defe" upstream="scarthgap"/>
 
