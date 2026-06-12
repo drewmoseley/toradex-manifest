@@ -12,7 +12,7 @@
     except for layer meta-toradex-torizon which in the integration manifest is referenced by branch but here should
     be referenced by the corresponding hash.
   -->
-  <project name="bitbake" path="sources/bitbake" remote="oe" revision="d3b4c352dd33fca90cd31649eda054b884478739"/>
+  <project name="bitbake" path="sources/bitbake" remote="oe" revision="a4daa14312d659333984aa1ae58ddfe0c96392f1"/>
   <project name="meta-arm" path="sources/meta-arm" remote="yocto" revision="a81c19915b5b9e71ed394032e9a50fd06919e1cd"/>
   <project name="meta-ti" path="sources/meta-ti" remote="yocto" revision="a444d3137a527d4a405986a5ffa143ed7dfc0961"/>
   <project name="meta-yocto" path="sources/meta-yocto" remote="yocto" revision="c7c38663a1cafb1fa8593c0b246811e51d3bbe20"/>
