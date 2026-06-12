@@ -38,7 +38,7 @@
   <project name="meta-timesys" remote="timesys" path="sources/meta-timesys" revision="4dc3f4bdfde4a86904b6e1a3d58df4696e7a63fa" upstream="scarthgap"/>
   <project name="meta-virtualization" remote="yp" path="sources/meta-virtualization" revision="6f3c1d8f90947408a6587be222fec575a1ca5195" upstream="scarthgap"/>
 
-  <project name="meta-imx" remote="nxp" path="sources/meta-imx" revision="a0cf309d2e2d544111e520f572db8dff335eca01">
+  <project name="meta-imx" remote="nxp" path="sources/meta-imx" revision="df93ace70a3c66167b1692b1ac26b79979b0dd6b">
      <linkfile dest="imx-setup-release.sh" src="tools/imx-setup-release.sh"/>
   </project>
   <project name="meta-imx-frdm" path="sources/meta-imx-frdm" remote="nxp-support" revision="0391d7457a9f044f2b38ed3f91570926a669261b">
