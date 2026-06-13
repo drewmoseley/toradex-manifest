@@ -11,11 +11,11 @@
     Update the hashes of these external layers when leaving feaure freeze (to the tip of the
     appropriate branches).
   -->
-  <project name="poky" path="layers/poky" remote="yocto" revision="d4576e3c081a7ee7b57d48421c4c4f491cb4defe"/>
+  <project name="poky" path="layers/poky" remote="yocto" revision="b56134ff90dec996e8aae45ed7e6ad6b1d5a84a0"/>
   <project name="meta-intel" path="layers/meta-intel" remote="yocto" revision="5d153e35b4e752505efeae368f188fac5e31cf33"/>
-  <project name="meta-updater" path="layers/meta-updater" remote="uptane" revision="e343d2e65857d62760554b441b3925010d7015fe"/>
-  <project name="meta-virtualization" path="layers/meta-virtualization" remote="yocto" revision="3dd635f613f7299d986a8ab6bc9f584370f8ed1d"/>
-  <project name="meta-openembedded" path="layers/meta-openembedded" remote="oe" revision="5124ac4a658899158f4a7a2ddf1d2ca931ec7d0e"/>
+  <project name="meta-updater" path="layers/meta-updater" remote="uptane" revision="14d693d72551d8759c818b00d32bcdf9fc4c6063"/>
+  <project name="meta-virtualization" path="layers/meta-virtualization" remote="yocto" revision="9d0007a369deb4a6346f5ab7a9e6d432a8ed14fe"/>
+  <project name="meta-openembedded" path="layers/meta-openembedded" remote="oe" revision="d8cc4e44001c7257273d290ce8c4496e93d32841"/>
 
   <project name="meta-toradex-torizon" path="layers/meta-toradex-torizon" remote="torizon" revision="scarthgap-7.x.y">
     <linkfile dest="setup-environment" src="scripts/setup-environment"/>
