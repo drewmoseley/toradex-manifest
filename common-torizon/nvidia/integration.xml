@@ -12,6 +12,7 @@
   <project name="meta-openembedded" remote="oe" path="layers/meta-openembedded" revision="ec0469748be4159fb83fb0fa0148d786484c88cf" upstream="scarthgap"/>
   <project name="openembedded-core" remote="oe" path="layers/openembedded-core" revision="a9a785d7fa0cfe2a9087dbcde0ef9f0d2a441375" upstream="scarthgap"/>
   <project name="bitbake" path="layers/openembedded-core/bitbake" remote="oe" revision="a4daa14312d659333984aa1ae58ddfe0c96392f1"/>
+  <project name="meta-yocto" remote="yp" path="layers/meta-yocto" revision="94d19f9d8392f8a125764df0f8eda04205c7e76c" upstream="scarthgap"/>
 
   <project name="meta-virtualization" remote="yp" path="layers/meta-virtualization" revision="f92518e20530edfebca45e4170e11460949a5303" upstream="scarthgap"/>
 
