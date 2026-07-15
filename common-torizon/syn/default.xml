@@ -18,19 +18,19 @@
     be referenced by the corresponding hash.
   -->
   <project name="meta-synaptics" path="layers/meta-synaptics" remote="synaptics" revision="990a66e0111040ead67b0357a0330c55ca62a602"/>
-  <project name="meta-updater" path="layers/meta-updater" remote="uptane" revision="bb7dd09fe59f718727262cc30716c0a4e3397d41"/>
+  <project name="meta-updater" path="layers/meta-updater" remote="uptane" revision="14d693d72551d8759c818b00d32bcdf9fc4c6063"/>
 
-  <project name="meta-browser" path="layers/meta-browser" remote="ossystems" revision="0c43dd66e951624415516bdefcd7a7a8a641fbc3"/>
-  <project name="meta-clang" path="layers/meta-clang" remote="kraj" revision="9fbfa9db33131abdf3870a94f00199eb53e276e5"/>
-  <project name="meta-openembedded" path="layers/meta-openembedded" remote="oe" revision="b8d1a14f7f3b76457c36752202ea7ae5881b6654"/>
-  <project name="meta-swupdate" path="layers/meta-swupdate" remote="swupdate" revision="4a65b1ed36c0b6ee4942d5f23c4984552b17cfe6"/>
-  <project name="meta-virtualization" path="layers/meta-virtualization" remote="yp" revision="450941a1b6df96285691e8c23d4f332d3c88a994" upstream="scarthgap"/>
-  <project name="meta-selinux" path="layers/meta-selinux" remote="yp" revision="30a49ab1298d2a081089a9e4c760a9e02f8100f6" upstream="scarthgap"/>
+  <project name="meta-browser" path="layers/meta-browser" remote="ossystems" revision="85eeb6b50883d22c977396f5e8fe211a7961cf2e"/>
+  <project name="meta-clang" path="layers/meta-clang" remote="kraj" revision="7cf54f70cebe897d844f649024322bb096d7cb50"/>
+  <project name="meta-openembedded" path="layers/meta-openembedded" remote="oe" revision="d8cc4e44001c7257273d290ce8c4496e93d32841"/>
+  <project name="meta-swupdate" path="layers/meta-swupdate" remote="swupdate" revision="cb709b865a56be48cb17cbad149b69f793f3888b"/>
+  <project name="meta-virtualization" path="layers/meta-virtualization" remote="yp" revision="9d0007a369deb4a6346f5ab7a9e6d432a8ed14fe" upstream="scarthgap"/>
+  <project name="meta-selinux" path="layers/meta-selinux" remote="yp" revision="48f745109a1ecea9afe2a74d41dbd90fa7b370af" upstream="scarthgap"/>
   <project name="meta-lts-mixins" path="layers/meta-lts-mixins" remote="yp" revision="c19b6da5a3afd3c892b3b1b44983e993ac6d5308" upstream="scarthgap/rust"/>
-  <project name="meta-qt5" path="layers/meta-qt5" remote="qt" revision="eb828418264a49b8d00035cb3d7b12fcea3be801" upstream="upstream/scarthgap"/>
-  <project name="poky" path="layers/poky" remote="yp" revision="d4576e3c081a7ee7b57d48421c4c4f491cb4defe" upstream="scarthgap"/>
+  <project name="meta-qt5" path="layers/meta-qt5" remote="qt" revision="554fc20c326a9b205169331644f0cb471619e63c" upstream="upstream/scarthgap"/>
+  <project name="poky" path="layers/poky" remote="yp" revision="b56134ff90dec996e8aae45ed7e6ad6b1d5a84a0" upstream="scarthgap"/>
 
-  <project name="meta-toradex-torizon" path="layers/meta-toradex-torizon" remote="torizon" revision="aff152f42c21e10bd6b9224ef130bbbe207e8200">
+  <project name="meta-toradex-torizon" path="layers/meta-toradex-torizon" remote="torizon" revision="6869626aa2e98cd0863f0d698fb592c7d645dcf0">
     <linkfile dest="setup-environment" src="scripts/setup-environment"/>
   </project>
 </manifest>
